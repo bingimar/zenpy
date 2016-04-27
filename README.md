@@ -11,6 +11,9 @@ Zenpy is still in beta, so please report any bugs!
 ## Quickstart
 
 ```python
+from zenpy import Zenpy
+from zenpy.lib.api_objects import Ticket
+
 # Create a Zenpy object
 zenpy = Zenpy(**credentials)
 
